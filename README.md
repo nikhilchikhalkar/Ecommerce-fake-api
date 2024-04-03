@@ -1,6 +1,6 @@
 
 
-# SSENSE clone 
+# E-commerce clone 
 
 This app is a Fashon-Wear app of Mens and Womens and we can buy the Products from this app to our selected location.
 
