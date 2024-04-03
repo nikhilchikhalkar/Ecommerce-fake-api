@@ -5,7 +5,7 @@
 This app is a Fashon-Wear app of Mens and Womens and we can buy the Products from this app to our selected location.
 
 ## Deployed link of project
-- <a href="">AllInOne.com (E-commerce)</a>
+- <a href="https://ecommerce-fake-api-tau.vercel.app">AllInOne.com (E-commerce)</a>
 
 
 ## Deployment
