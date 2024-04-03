@@ -52,15 +52,15 @@ function Cart() {
                 <div className="d-flex justify-content-around ">
                   <div className="w-100 align-middle">
                     <h5 className="align-middle d-inline">
-                      Subtotal: ${subTotal}
+                      Subtotal: ₹{subTotal}
                     </h5>
                   </div>
                   <div className="w-100 ">
-                    <h5 className="align-middle d-inline">Tax(2%): ${tax}</h5>
+                    <h5 className="align-middle d-inline">Tax(2%): ₹{tax}</h5>
                   </div>
                   <div className="w-100 align-middle">
                     <h5 className="align-middle d-inline">
-                      Total Price: ${totalAmmount.toFixed(2)}
+                      Total Price: ₹{totalAmmount.toFixed(2)}
                     </h5>
                   </div>
                   <div className="w-100 text-center">

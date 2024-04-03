@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import { Button, Carousel } from "react-bootstrap";
 import "./HeaderSlider.css";
+import { Link } from "react-router-dom";
 function HeaderSlider() {
   return (
     <Fragment>
@@ -16,7 +17,9 @@ function HeaderSlider() {
             <h5>Summer Collection Pure PU Ladies Shoulder Bag </h5>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
             <div className="mb-3">
-              <Button variant="dark">Shop Now</Button>
+              <Link to={`category/women's clothing`}>
+                <Button variant="dark">Shop Now</Button>
+              </Link>
             </div>
           </Carousel.Caption>
         </Carousel.Item>
@@ -31,7 +34,9 @@ function HeaderSlider() {
             <h5>100% Cotton Men Blac Suits</h5>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
             <div className="mb-3">
-              <Button variant="dark">Shop Now</Button>
+              <Link to={`category/men's clothing`}>
+                <Button variant="dark">Shop Now</Button>
+              </Link>
             </div>
           </Carousel.Caption>
         </Carousel.Item>
@@ -39,14 +44,16 @@ function HeaderSlider() {
           <img
             className="d-block w-100"
             style={{ height: "100vh", objectFit: "cover" }}
-            src="../img/slider/blender-fruits-kitchen-space.png"
+            src="https://c8.alamy.com/comp/2BKWXB4/pc-computer-hardware-components-electronics-collage-cpu-micro-processor-graphics-card-power-supply-ddr-ram-headset-vr-glasses-solid-state-ssd-hard-dr-2BKWXB4.jpg"
             alt="smart blender home appliance"
           />
           <Carousel.Caption className="bg-white">
-            <h5>Decorate Your Smart Kitchen</h5>
+            <h5>Buid Your Smart System</h5>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
             <div className="mb-3">
-              <Button variant="dark">Shop Now</Button>
+              <Link to={`category/electronics`}>
+                <Button variant="dark">Shop Now</Button>
+              </Link>
             </div>
           </Carousel.Caption>
         </Carousel.Item>

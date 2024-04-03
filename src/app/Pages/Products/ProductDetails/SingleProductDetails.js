@@ -69,7 +69,7 @@ function SingleProductDetails() {
                     {product.category}
                   </Link>
                 </h4>
-                <h4 className="py-2">Price: ${product.price}</h4>
+                <h4 className="py-2">Price: ₹{product.price}</h4>
                 <p>{product.description}</p>
                 <div className="d-flex mb-3">
                   <button

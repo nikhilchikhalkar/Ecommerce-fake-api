@@ -15,7 +15,7 @@ function TopNavbar() {
     <Navbar bg="dark" expand="lg" variant="dark">
       <Container>
         <NavLink to={"/"} className={"navbar-brand"}>
-          Shop Now
+          All In One 
         </NavLink>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
