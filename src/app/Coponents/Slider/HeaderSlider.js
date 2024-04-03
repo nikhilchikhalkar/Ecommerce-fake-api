@@ -31,7 +31,7 @@ function HeaderSlider() {
             alt="pure mustard oil"
           />
           <Carousel.Caption className="bg-white">
-            <h5>100% Cotton Men Blac Suits</h5>
+            <h5>100% Cotton Men Black Suit</h5>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
             <div className="mb-3">
               <Link to={`category/men's clothing`}>
